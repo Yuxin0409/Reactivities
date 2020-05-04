@@ -1,15 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{8E760F02-8510-45F1-8089-E015576C10ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{8E760F02-8510-45F1-8089-E015576C10ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{B99D47E2-C8E8-4D0F-AEB5-D7F12CA899A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{B99D47E2-C8E8-4D0F-AEB5-D7F12CA899A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence\Persistence.csproj", "{27E90F76-9D1B-4844-A924-E0A57CC74E2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence", "Persistence\Persistence.csproj", "{27E90F76-9D1B-4844-A924-E0A57CC74E2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{99CA8A5A-FD53-4429-9E3E-BCCEC310198C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{99CA8A5A-FD53-4429-9E3E-BCCEC310198C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{52A597FA-D7C7-4C07-9BD0-00E1A2071DF6}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,9 +24,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{8E760F02-8510-45F1-8089-E015576C10ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -72,5 +74,11 @@ Global
 		{99CA8A5A-FD53-4429-9E3E-BCCEC310198C}.Release|x64.Build.0 = Release|Any CPU
 		{99CA8A5A-FD53-4429-9E3E-BCCEC310198C}.Release|x86.ActiveCfg = Release|Any CPU
 		{99CA8A5A-FD53-4429-9E3E-BCCEC310198C}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3A7449F-3925-4304-8EFF-844AFC68AD4D}
 	EndGlobalSection
 EndGlobal
